@@ -1,5 +1,12 @@
-export default function App(): React.JSX.Element {
-  console.log('Hello, world!')
+import React from 'react'
+import BasicChart from './basicChart'
+import CountryChart from './countryChart'
 
-  return <div className="bg-primary">Ensure Tailwindcss work</div>
+export default function App(): React.JSX.Element {
+  return (
+    <div className="flex justify-center items-center flex-col gap-3">
+      <BasicChart />
+      <CountryChart />
+    </div>
+  )
 }

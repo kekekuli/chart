@@ -9,6 +9,8 @@
       "@renderer/*": [
         "src/*"
       ]
-    }
+    },
+    "resolveJsonModule": true,
+    "esModuleInterop": true
   }
 }
